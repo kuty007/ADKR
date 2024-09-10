@@ -9,7 +9,8 @@ from models.modules.module_util import GaussianKernel, Mask_s
 #import module_util as mutil
 #from module_util import GaussianKernel, GumbelSigmoid
 import torch.distributed as dist
-from mmcv.cnn.weight_init import constant_init
+from mmcv.cnn import constant_init
+
 
 
 
